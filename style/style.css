@@ -77,10 +77,13 @@ main{
 .apresentacao{
     font-size: 18px;
     padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bolo{
-    max-width: 90%;
+    max-width: 400px;
     min-width: 60%;
     margin:auto;
     background-color: white;
