@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+MX+Guides&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(120deg, #ff46f0,#68005f81, #f0a5ff), url('../source/bolos/confeti.png');
+
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    padding: 30px;
+}
+
+.titulo {
+    color: white;
+    margin-top: 40px;
+    font-family: 'Great Vibes';
+    font-size: 60px;
+}
+
+header p{
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+header .titulo{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header .contato-header{
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+header button{
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+header button:hover{
+    background-color: rgb(60, 170, 100);
+    transition: background-color 0.3s ease;
+}
+
+header button{
+    background-color: rgb(74, 202, 117);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main{
+    text-align: center;
+    background-color: seashell;
+    padding: 50px;
+}
+
+.apresentacao{
+    font-size: 18px;
+    padding: 20px;
+}
+
+.bolo{
+    max-width: 90%;
+    min-width: 60%;
+    margin:auto;
+    background-color: white;
+    border-radius: 30px;box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bolo img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.desc{
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.desc h2{
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+
+.desc p{
+    color: rgb(102, 102, 102);
+}
+
+.pedir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box-preco{
+    display: block;
+    align-items: center;
+}
+
+.preco{
+    color: rgb(74, 202, 117);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bolo button{
+    background-color: rgb(74, 202, 117);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.bolo button:hover{
+    background-color: rgb(60, 170, 100);
+    transition: background-color 0.3s ease;
+}
+
+footer{
+    background-color: rgb(213, 133, 216);
+    text-align: center;
+    padding: 20px;
+}
