@@ -24,7 +24,7 @@ header{
     color: white;
     margin-top: 40px;
     font-family: 'Great Vibes';
-    font-size: 60px;
+    font-size: 100px;
 }
 
 header p{
@@ -146,7 +146,9 @@ main{
 }
 
 footer{
-    background-color: rgb(213, 133, 216);
+    background-color: rgb(236, 236, 236);
     text-align: center;
     padding: 20px;
+
+    border-top: rgb(78, 78, 78) 1px solid;
 }
